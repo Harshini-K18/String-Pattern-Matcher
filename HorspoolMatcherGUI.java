@@ -1,4 +1,3 @@
-package matcher;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -8,9 +7,9 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 public class HorspoolMatcherGUI extends JFrame {
-    private JTextField filePathField, patternField, replacementField;
-    private JTextArea fileContentArea, matchProcessArea;
-    private JButton loadButton, searchButton, replaceButton;
+    private final JTextField filePathField, patternField, replacementField;
+    private final JTextArea fileContentArea, matchProcessArea;
+    private final JButton loadButton, searchButton, replaceButton;
 
     public HorspoolMatcherGUI() {
         setTitle("Horspool String Matcher");
