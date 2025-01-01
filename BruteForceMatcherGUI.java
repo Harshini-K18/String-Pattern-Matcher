@@ -10,9 +10,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BruteForceMatcherGUI extends JFrame {
-    private JTextField filePathField, patternField, replacementField;
-    private JTextArea fileContentArea, matchProcessArea;
-    private JButton loadButton, searchButton, replaceButton;
+    private final JTextField filePathField, patternField, replacementField;
+    private final JTextArea fileContentArea, matchProcessArea;
+    private final JButton loadButton, searchButton, replaceButton;
 
     public BruteForceMatcherGUI() {
         setTitle("Brute Force String Matcher");
